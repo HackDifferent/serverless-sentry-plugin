@@ -11,7 +11,7 @@
 
 This Serverless plugin simplifies the integration of [Sentry](https://sentry.io) with the popular [Serverless Framework](https://serverless.com) and AWS Lambda.
 
-Currently, we support [Lambda Runtimes for Node.js 12, 14, and 16](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) for AWS Lambda. Other platforms can be added by providing a respective integration library. Pull Requests are welcome!
+Currently, we support [Lambda Runtimes for Node.js 18, 20, 22, and 24](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) for AWS Lambda. Other platforms can be added by providing a respective integration library. Pull Requests are welcome!
 
 The `serverless-sentry-plugin` and `serverless-sentry-lib` libraries are not affiliated with either Functional Software Inc., Sentry, Serverless or Amazon Web Services but developed independently and in my spare time.
 

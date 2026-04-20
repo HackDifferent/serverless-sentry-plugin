@@ -1,6 +1,6 @@
 {
   "name": "serverless-sentry",
-  "version": "2.5.3",
+  "version": "3.0.0",
   "description": "Serverless Sentry Plugin - Automatically send errors and exceptions to Sentry (https://sentry.io)",
   "license": "MIT",
   "repository": {
@@ -48,7 +48,7 @@
   ],
   "peerDependencies": {
     "serverless": ">=2",
-    "serverless-sentry-lib": "2.x.x"
+    "serverless-sentry-lib": "github:HackDifferent/serverless-sentry-lib#v3.0.0"
   },
   "dependencies": {
     "@supercharge/promise-pool": "^2.3.0",

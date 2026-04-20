@@ -4,7 +4,7 @@ import Plugin from "serverless/classes/Plugin";
 import Service from "serverless/classes/Service";
 import Aws from "serverless/plugins/aws/provider/awsProvider";
 import GitRev from "./git-rev";
-export declare type SentryRelease = {
+export type SentryRelease = {
     version: string | boolean;
     refs?: {
         repository: string;
@@ -12,7 +12,7 @@ export declare type SentryRelease = {
         previousCommit?: string;
     }[] | false;
 };
-export declare type SentryOptions = {
+export type SentryOptions = {
     dsn?: string;
     environment?: string;
     authToken?: string;
@@ -42,11 +42,11 @@ export declare type SentryOptions = {
     captureTimeoutWarnings?: boolean;
 };
 /** Helper type for Serverless functions with an optional `sentry` configuration setting */
-declare type FunctionDefinitionWithSentry = Serverless.FunctionDefinition & {
+type FunctionDefinitionWithSentry = Serverless.FunctionDefinition & {
     sentry?: boolean | SentryOptions;
 };
 /** Required parameters for creating/updating releases in the API */
-declare type ApiParameters = {
+type ApiParameters = {
     authToken: string;
     organization: string;
     project?: string;

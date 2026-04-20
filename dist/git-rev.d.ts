@@ -1,4 +1,4 @@
-export declare type Options = {
+export type Options = {
     cwd: string;
 };
 export default class GitRev {
